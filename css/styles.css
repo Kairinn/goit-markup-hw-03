@@ -128,7 +128,7 @@ address {
   margin-left: 76px;
 }
 .header-item:not(:last-child) {
-  margin-right: 40px;
+  padding-right: 40px;
 }
 
 .header-link {
@@ -144,6 +144,7 @@ address {
 .header-address {
   display: flex;
   margin-left: auto;
+  padding-right: 40px;
 }
 
 .contact-list {
@@ -153,7 +154,7 @@ address {
 
 .contact-address:not(:last-child) {
   display: flex;
-  margin-right: 40px;
+  padding-right: 40px;
 }
 .header-email {
   font-style: normal;
@@ -435,11 +436,14 @@ address {
   color: #4d5ae5;
   cursor: pointer;
   background-color: #f4f4fd;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border: 1px solid;
   align-items: center;
   text-align: center;
   padding: 12px 24px;
   border-radius: 4px;
+  border-color: #e7e9fc;
 }
 
 .hero-btn-portfolio:hover,
@@ -456,15 +460,6 @@ address {
   margin-top: 72px;
 }
 .hero-item-portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 48px 24px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
-  width: 360px;
-  height: 420px;
-  left: 924px;
-  top: 288px;
 }
 .hero-item-title-portfolio {
   font-weight: 500;
@@ -480,4 +475,9 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.hero-portfolio-text {
+  border: 1px solid #e7e9fc;
+  border-top: 0;
+  padding: 32px 16px;
 }
