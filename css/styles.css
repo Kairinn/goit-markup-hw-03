@@ -128,7 +128,7 @@ address {
   margin-left: 76px;
 }
 .header-item:not(:last-child) {
-  padding-right: 40px;
+  margin-right: 40px;
 }
 
 .header-link {
@@ -144,7 +144,11 @@ address {
 .header-address {
   display: flex;
   margin-left: auto;
-  padding-right: 40px;
+}
+
+.contact-item:not(:last-child) {
+  display: flex;
+  margin-left: auto;
 }
 
 .contact-list {
@@ -152,10 +156,6 @@ address {
   gap: 40px;
 }
 
-.contact-address:not(:last-child) {
-  display: flex;
-  padding-right: 40px;
-}
 .header-email {
   font-style: normal;
   font-weight: 400;
@@ -182,6 +182,7 @@ address {
 }
 
 .hero-container {
+  max-width: 1440px;
 }
 
 .hero-link:hover,
